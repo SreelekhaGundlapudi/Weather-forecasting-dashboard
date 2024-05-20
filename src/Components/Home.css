@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-component {
+    background: linear-gradient(to bottom, #9ccdf6, #4a8aea);
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.weather-section {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 4px 6px 6px 7px rgb(0 0 0 /10%);
+    color: white;
+    
+    height: max-content;
+    width: max-content;
+    margin: 20px;
+    padding: 20px;
+}
